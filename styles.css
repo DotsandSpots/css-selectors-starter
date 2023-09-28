@@ -680,7 +680,10 @@ input[type="submit"]:focus{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
 }
-
+#software h3{
+    grid-column: 1/-1;
+    text-align: center
+}
 /* ----- */
 /* 
     TO DO:
